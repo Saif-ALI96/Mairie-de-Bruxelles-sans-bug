@@ -1,0 +1,50 @@
+.demarches{
+    display: flex;
+    padding: 10%;
+    gap: 5%;
+    .circle {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        border-radius: 50%;
+        width: 500px;
+        height:400px;
+    
+        img{
+            position: relative;
+            display: flex;
+            height: 70%;
+            width: 60%;
+            top: 10%;
+        }
+
+    }
+    .demarchesTexte{
+        flex-direction: column;
+        p{
+            text-align: start;
+        }
+    }
+   
+    .lienDemarche{
+        display: flex;
+        flex-direction: row;
+       a{justify-content: space-around;
+        text-decoration: none;
+        img {
+            height: 50px;
+            width: 50px;
+            transform: rotate(180deg);
+        }
+       }
+        h2{
+          font-size: $tailleTexte;  
+        }
+    }
+}
+
+fieldset{
+  margin-right: 5% ;
+  margin-left: 5% ;
+ margin-top: 5%;
+}

@@ -1,0 +1,39 @@
+// .saif{
+//     margin:auto;
+//     padding:0%;
+//     background-color:$backgroundMain;
+// }
+// c'est pour le titre de ma page, 
+// pour le moment je laisse cacher et on décide après 
+// .container h1{
+//     text-align: center;
+//     color:$couleurTexte;
+//     font-family: $policeTitre;
+//     text-transform: uppercase;
+  
+// }
+
+.container p {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 50px;
+    color:$couleurTexte;
+    font-family: $policeTexte; 
+    text-align:start;
+    line-height: 30px;
+    
+}   
+
+
+@media all and  (max-width: 500px)   {
+
+    .container p {
+    
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin:auto;
+        font-size: large;
+    }
+    
+}

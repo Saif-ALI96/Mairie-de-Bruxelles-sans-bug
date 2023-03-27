@@ -1,0 +1,75 @@
+html {
+    overflow-x: hidden;
+}
+
+.CorpsDePage {
+    background-color: $backgroundMain;
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 0%;
+
+    .EventNumerique {
+        background-color: $backgroundSection;
+        width: 87%;
+        margin-left: 4%;
+        padding-left: 4%;
+        padding-bottom: 4%;
+
+        .DateEventNum {
+
+            h1 {
+                display: flex;
+                justify-content: center;
+                color: $couleurTitreMain;
+                font-family: $policeTitre;
+                letter-spacing: 3px;
+                font-size: $tailleTitreEvenement;
+                padding-top: 2%;
+                padding-left: 8px;
+            }
+        }
+    }
+
+    p .TexteADroite .DescriptionPrintempsNumerique{
+        font-size: $tailleTexte;
+    }
+
+    .BlocImgTxt {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .TexteADroite {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        color: white;
+        width: 28%;
+        margin-right: 13%;
+        font-family: $policeTexte ;
+    }
+
+    .NouvelleTechnologie{
+        width: 80%;
+    }
+    .NouvelleTechnologie img {
+        display: flex;
+        padding-bottom: 4%;
+        width: 80%;
+        margin-left: 1%;
+    }
+}
+
+.DescriptionPrintempsNumerique {
+    display: flex;
+    gap: 20px;
+    width: 86%;
+    margin-left: 9px;
+    font-family: $policeTexte ;
+}
+
+
+.footerContact{
+    margin-bottom: 0;
+}

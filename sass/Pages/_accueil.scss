@@ -1,0 +1,40 @@
+.ligne{
+
+  border: 2px solid;
+  color: $couleurTitreMain;
+}
+
+body {
+  margin: 0;
+  padding: 0%;
+}
+
+h2 {
+  font-family: $policeTitre;
+  color: $couleurTitreMain;
+  font-size: $tailleTitreEvenement ;
+}
+
+p {
+  font-family: $policeTexte;
+  color: $couleurTexte;
+  font-size: $tailleTexte ;
+}
+
+main {
+  background-color: $backgroundMain;
+  height: 80%;
+  padding-top: 4%;
+}
+
+.dernieresnouvelles{
+padding-top: 30px;
+}
+
+.containerun p{
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+// media queries

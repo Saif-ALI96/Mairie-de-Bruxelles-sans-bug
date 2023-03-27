@@ -1,0 +1,79 @@
+.header2 h1 {
+  color: $couleurTitreHeader;
+
+  font-family: $policeTitre;
+}
+
+.hd2 {
+  background-image: url(/images/événements/evenement1.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 30%;
+  height: 500px;
+}
+
+.header2 h2 {
+  font-family: $policeTexte ;
+  margin: auto;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.TitreHeaderEvenement {
+  display: flex;
+  justify-content: space-between;
+  font-size: 55px;
+  padding-left: 20%;
+  
+  .TitreEvenement{
+    margin-top: 0;
+    font-size: 55px;
+  }
+}
+.EventLogo .logo2{
+  display: flex;
+  justify-content: end;
+}
+
+.contenuhd2 {
+  padding-left: 50px;
+  background-color: rgba(94, 83, 83, 0.296);
+  padding-bottom: 250px;
+  padding-top: 30px;
+}
+
+.nav2 {
+  font-size: 25px;
+  display: flex;
+  justify-content: end;
+  padding-right: 55px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: $policeTexte ;
+  }
+
+  a:hover {
+    color: #DABB70;
+  }
+}
+
+.EvenementNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 25px;
+  margin-right: 60px;
+  list-style: none;
+}
+
+.logo2 {
+  display: flex;
+  justify-content: end;
+}
+
+.logo2 img {
+  width: 280px;
+  padding-right: 120px;
+}

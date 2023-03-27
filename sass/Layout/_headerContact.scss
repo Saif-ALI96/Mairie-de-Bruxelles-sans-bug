@@ -1,0 +1,115 @@
+.header3 h1 {
+  color: $couleurTitreHeader;
+
+  font-family: $policeTitre;
+}
+
+.hd3 {
+  background-image: url(/images/photos/pexels-vlada-karpovich-4050470.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 30%;
+  height: 500px;
+}
+
+.header3 h1{
+  font-family: $policeTexte ;
+  margin: auto;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.TitreHeaderContact{
+  display: flex;
+  justify-content:space-between;
+  font-size: 55px;
+  padding-left: 20%;
+  
+  .TitreContact{
+    margin-top: 0;
+    font-size: 55px;
+  }
+}
+.ContactLogo .logo3{
+  display: flex;
+  justify-content: end;
+}
+
+.contenuhd3 {
+  padding-left: 50px;
+  background-color: rgba(94, 83, 83, 0.296);
+  padding-bottom: 250px;
+  padding-top: 30px;
+}
+
+.nav3 {
+  font-size: 25px;
+  display: flex;
+  justify-content: end;
+  padding-right: 25px;
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: $policeTexte ;
+  }
+
+  a:hover {
+    color: #DABB70;
+  }
+}
+
+.EvenementNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 25px;
+  margin-right: 60px;
+  list-style: none;
+}
+
+.logo3{
+  display: flex;
+  justify-content: end;
+}
+
+.logo3 img {
+  width: 280px;
+  padding-right: 120px;
+}
+
+
+@media all and  (max-width: 500px){
+  .hd3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .logo3 img{
+    padding-right: 5%;
+    width: 60%;
+  }
+
+  .TitreHeaderContact {
+    padding-left: 0;
+    flex-direction: column-reverse;
+  }
+
+  .TitreHeaderContact  .TitreContact{
+    font-size: 30px;
+    margin-top: 60px;
+  }
+
+  .nav3{
+    display: block;
+  }
+
+  .contenuhd3{
+    background: none;
+  }
+
+  
+
+
+}

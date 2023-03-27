@@ -1,0 +1,195 @@
+.footerContact{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 5%;
+      
+    .footerTexteContact{
+       
+      
+       
+        h2{
+            font-family: $policeTitre;
+            font-size: xxx-large;
+            color: $couleurTitreMain;
+            justify-content: start;
+            margin-top: 0;
+        }
+    }
+    .footerMap{
+        display: flex;
+        justify-content: center;
+        margin-right:  10%;
+         iframe{
+            
+           width: 600px;
+        height: 400px;
+        
+        }
+    }
+}
+
+.footerTexteContact p{
+
+    margin-right: 20%;
+    line-height: 40px;
+}
+
+.logoContact{
+    display: flex;
+   gap: 20px;
+   #facebook{
+    width:50px;}
+    #twitter{
+        width:50px;}
+        #instagram{
+            width:50px;}
+            #tiktok{
+                width:50px;}
+                #youtube{
+                    width:50px;}
+                    #spotify{
+                        width:50px;
+                    }
+}
+.basPage{
+    background-color: $backgroundFooter;
+    display:flex;
+    justify-content: center;
+    padding: 2%;
+    .texteEtLien{
+        display: flex;
+        flex-direction: column;
+       padding-right: 50px;
+
+       .basPageTexte{
+         display: flex;
+         font-family: $policeTexte ;
+         color: $couleurTexte;
+         font-size: $tailleTexte;
+         justify-content: center;
+        }
+        .lienFooter{
+            
+            font-family: $policeTexte;
+            font-size: 40px; 
+            a{
+                color: $couleurTexte;
+               } 
+        }
+        .footerHebergement{
+       p{
+        display: flex;
+           justify-content: center;
+           padding-top: 5%;
+       }
+        }
+    }
+    
+}
+.logoFooter{
+    display:flex;
+    flex-direction: column;
+   
+    #animaux{
+        width: 57px;
+    }
+    
+    #unesco{
+        width:150px;
+    }
+    
+    #vbx{
+        width:150px;  
+    }
+}
+
+
+@media all and (max-width: 500px)   {
+footer{
+    width: 100%;
+}
+
+
+.footerContact{
+    flex-direction: column;
+    width: 100%;
+    padding: 0%;
+    margin-left: 5%;
+}
+
+.footerContact h2{
+
+    width: 100%;
+
+}
+
+ .footerContact .footerTexteContact h2{
+
+    margin-top: 30px;
+    font-size: xx-large;
+    text-align: start;
+    margin-left: 10%;
+}
+.footerContact p{
+    font-size:large;
+    margin-right: 13%;
+
+}
+
+.logoContact{
+    display: block;
+    padding-bottom: 20px;
+}
+
+
+
+.footerTexteContact{
+    width: 100%;
+}
+
+.footerMap iframe{
+  
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 25px;
+}
+
+.footerContact .footerMap iframe {
+    height: 200px;
+    width: 300px;
+}
+
+
+
+.logoFooter{
+    flex-direction: row;
+}
+
+.logoFooter a{
+    width: 60%;
+}
+
+.basPage{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+.basPageTexte p{
+    font-size:medium;
+    
+}
+
+.lienFooter {
+    width: 100%;
+}
+.lienFooter a{
+    font-size: 20px;
+}
+
+.footerHebergement p{
+    font-size:medium;
+}
+
+}
