@@ -1,8 +1,10 @@
+// section Démarches
 .demarches {
     display: flex;
     padding: 10%;
     gap: 5%;
 
+    // position de l'icone 
     .circle {
         display: flex;
         justify-content: center;
@@ -21,6 +23,7 @@
 
     }
 
+    // texte section 
     .demarchesTexte {
         flex-direction: column;
 
@@ -30,10 +33,12 @@
         }
     }
 
+    // lien
     .lienDemarche {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
 
         a {
             text-decoration: none;
@@ -51,6 +56,7 @@
     }
 }
 
+// trait autour de boite
 fieldset {
     margin-right: 5%;
     margin-left: 5%;
