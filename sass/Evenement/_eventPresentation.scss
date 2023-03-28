@@ -47,11 +47,16 @@ html {
         color: white;
         width: 28%;
         margin-right: 13%;
-        font-family: $policeTexte ;
+        font-family: $policeTexte;
     }
 
     .NouvelleTechnologie {
-        width: 80%;
+        width: 50%;
+        margin-right: 0;
+      
+        padding-bottom: 4%;
+       
+        margin-left: 1%;
     }
 
     .NouvelleTechnologie img {
@@ -89,17 +94,22 @@ p .TexteAGauche .DescriptionPrintempsNumerique {
     color: white;
     width: 28%;
     margin-right: 13%;
-    font-family: $policeTexte ;
+    font-family: $policeTexte;
 }
 
 .Festival {
     width: 80%;
-}
-
-.Festival img {
-    display: flex;
+    margin-right
+    
+    : 10%;
     padding-bottom: 4%;
-    width: 80%;
+    width: 50%;
     margin-left: 1%;
 }
+
+//Fin de la section Summer Fest
   
+
+//Début de la section Bruxelle Tour
+
+
