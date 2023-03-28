@@ -95,24 +95,24 @@
     font-size: 25px;
   }
   .containerdeuxtexte p{
-    font-size: 12px;
+    font-size: 20px;
   }
 
   .containerdeux{
   img {
-      border-radius: 100px 100px 0px 0px;
-      width: 140px;
-      height: 120px;
+      border-radius: 70px 70px 0px 0px;
+      width: 200px;
+      height: 150px;
       padding: 2%;
     }
   }
 
   .overlay-image .hover-image {
-    border-radius: 100px 100px 0px 0px;
-    width: 140px;
-    height: 120px;
-    padding: 2%;        
-    
+  
+    border-radius: 70px 70px 0px 0px;
+    width: 200px;
+    height: 150px;
+    padding: 2%;
   }
 
   
@@ -133,8 +133,34 @@
 }
 
 .EvenementsAccueil{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   margin-left: 3%;
  
 }
 
+.containerdeux {
+
+  .imagesEvenementsAccueil{
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-gap: 5px;
+    padding-bottom: 50px;}
+
+
+.imagesEvenementsAccueildeux{
+ display: grid;
+ grid-template-columns: repeat(1, 3fr);
+ grid-gap: 5px;
+ padding-bottom: 50px;
 }
+
+  .containerdeuxtexte{
+    h2 {text-align: center;}
+    p {text-align: center;}
+  }
+   
+  }
+
+}
+
