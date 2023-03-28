@@ -146,6 +146,8 @@ nav {
 @media screen and (max-width: 500px) {
   nav{
     background-color:rgba(0, 0, 0, 0.474) ;
+    border-radius: 10%;
+    
     .AccueilNav{
       display: flex;
       flex-direction: column;
@@ -154,24 +156,24 @@ nav {
     }
   }
 
-nav #ac{
-    color: rgba(0, 0, 0, 0.809);
+// nav #ac{
+//     // color: rgba(0, 0, 0, 0.809);
   
-}
+// }
 
 
 
-nav #ev{
-  color: rgba(0, 0, 0, 0.809);
+// nav #ev{
+//   color: rgba(0, 0, 0, 0.809);
 
-}
+// }
 
 
 
-nav #co{
-  color: rgba(0, 0, 0, 0.809);
+// nav #co{
+//   color: rgba(0, 0, 0, 0.809);
 
-}
+// }
 
   .logo img {
 
@@ -199,6 +201,10 @@ nav #co{
 
     .navHidden {
       display: none;
+    }
+    aside nav{
+      display: flex;
+     
     }
 
    
