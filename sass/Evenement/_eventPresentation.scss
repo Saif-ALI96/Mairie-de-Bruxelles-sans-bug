@@ -8,29 +8,29 @@ html {
     padding-bottom: 5%;
     padding-top: 0%;
 
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: $couleurTitreMain;
+        font-family: $policeTitre;
+        letter-spacing: 3px;
+        font-size: $tailleTitreEvenement;
+        padding-top: 2%;
+        padding-left: 8px;
+    }
+
     .EventNumerique {
         background-color: $backgroundSection;
         width: 87%;
         margin-left: 4%;
         padding-left: 4%;
         padding-bottom: 4%;
-
-        .DateEventNum {
-
-            h1 {
-                display: flex;
-                justify-content: center;
-                color: $couleurTitreMain;
-                font-family: $policeTitre;
-                letter-spacing: 3px;
-                font-size: $tailleTitreEvenement;
-                padding-top: 2%;
-                padding-left: 8px;
-            }
-        }
     }
 
-    p .TexteADroite .DescriptionPrintempsNumerique{
+        //Début de la section Printemps Numérique 
+
+
+    p .TexteADroite .DescriptionPrintempsNumerique {
         font-size: $tailleTexte;
     }
 
@@ -50,9 +50,10 @@ html {
         font-family: $policeTexte ;
     }
 
-    .NouvelleTechnologie{
+    .NouvelleTechnologie {
         width: 80%;
     }
+
     .NouvelleTechnologie img {
         display: flex;
         padding-bottom: 4%;
@@ -61,15 +62,44 @@ html {
     }
 }
 
-.DescriptionPrintempsNumerique {
+
+//Fin de la section Printemps Numérique 
+
+
+//Début de la section Summer Fest
+
+p .TexteAGauche .DescriptionPrintempsNumerique {
+    font-size: $tailleTexte;
+}
+
+.BlocImgTxt1 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+.footerContact {
+    margin-bottom: 0;
+}
+
+.TexteAGauche {
     display: flex;
-    gap: 20px;
-    width: 86%;
-    margin-left: 9px;
+    flex-direction: column;
+    align-self: center;
+    color: white;
+    width: 28%;
+    margin-right: 13%;
     font-family: $policeTexte ;
 }
 
-
-.footerContact{
-    margin-bottom: 0;
+.Festival {
+    width: 80%;
 }
+
+.Festival img {
+    display: flex;
+    padding-bottom: 4%;
+    width: 80%;
+    margin-left: 1%;
+}
+  
