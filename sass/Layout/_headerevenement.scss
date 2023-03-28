@@ -78,3 +78,122 @@
   width: 280px;
   padding-right: 120px;
 }
+
+@media  all and (max-width: 500px)  {
+
+  .hd2{
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+ 
+  .DateEventNum h1 {
+    font-size:x-large;
+  }
+
+  .CorpsDePage .BlocImgTxt  {
+    flex-direction: column;
+  }
+
+  .CorpsDePage .NouvelleTechnologie {
+    width: 100%;
+    margin-left: 0;
+    padding-top: 25px;
+  }
+
+  .CorpsDePage .TexteADroite {
+    padding-left: 0;
+    margin-right: 2%;
+    font-size: large;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+  }
+
+  .CorpsDePage h1 {
+
+    font-size: x-large;
+  }
+
+  .CorpsDePage .BlocImgTxt1{
+    flex-direction: column;
+  }
+  .CorpsDePage .Festival{
+    width: 100%;
+    margin-left: 0;
+    padding-top: 25px;
+  }
+
+  .CorpsDePage .TexteAGauche{
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: justify;
+    // letter-spacing: 0.5px;
+    line-height: 30px;
+    font-size: large;
+
+  }
+
+  .CorpsDePage .BlocImgTxt2{
+    flex-direction: column;
+   
+  }
+
+  .CorpsDePage .BruxelleTour{
+    width: 100%;
+    margin-left: 0;
+    padding-top: 25px;
+
+  }
+
+  .CorpsDePage .BlocImgTxt3{
+    flex-direction: column;
+
+  }
+
+  .CorpsDePage .FoireDuMidi{
+    width: 100%;
+    margin-left: 0;
+    padding-top: 25px;
+    margin-right: 5%;
+    text-align: justify;
+
+  }
+
+  .CorpsDePage .BlocImgTxt4{
+    flex-direction: column;
+  }
+
+  .CorpsDePage .MatchDeFoot{
+    width: 100%;
+    margin-left: 0;
+    padding-top: 25px;
+    margin-right: 5%;
+    padding-bottom: 6%;
+  }
+
+  .CorpsDePage .BlocImgTxt5{
+    flex-direction: column;
+
+  }
+
+  .CorpsDePage .MannifDeMatt{
+    width: 100%;
+    margin-left: 0;
+    padding-top: 25px;
+    margin-right: 5%;
+    
+  }
+
+
+
+
+  
+
+
+  
+}

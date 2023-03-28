@@ -113,61 +113,6 @@ nav {
 
 
 
-// Champ de recherches
-.search-box {
-  position: absolute;
-  top: 45%;
-  left: 81%;
-  transform: translate(-50%, -50%);
-  background: #666666;
-  height: 40px;
-  border-radius: 40px;
-  padding: 10px;
-}
-
-.search-box:hover>.search-txt {
-  width: 240px;
-  padding: 0 6px;
-}
-
-.search-box:hover>.search-btn {
-  background: white;
-  color: #DABB70;
-}
-
-.search-btn {
-  color: #eeeeee;
-  float: right;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #DABB70;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.4s;
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.search-btn>i {
-  font-size: 20px;
-}
-
-.search-txt {
-  border: none;
-  background: none;
-  outline: none;
-  float: left;
-  padding: 0;
-  color: white;
-  font-size: 16px;
-  transition: 0.4s;
-  line-height: 40px;
-  width: 0px;
-  font-weight: bold;
-}
 
 
 // media queries
@@ -189,7 +134,7 @@ nav {
     display: flex;
     flex-direction: column;
 
-    padding-left: 50px;
+    padding-left: 0;
     background-color: rgba(0, 0, 0, 0.474);
     margin-left: 60%;
     padding-bottom: 170px;
@@ -199,25 +144,36 @@ nav {
 
 /* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 500px) {
+  nav{
+    background-color:rgba(0, 0, 0, 0.474) ;
+    border-radius: 10%;
+    
+    .AccueilNav{
+      display: flex;
+      flex-direction: column;
+      padding-left: 0%;
+      margin-right: 20%;
+    }
+  }
 
-nav #ac{
-    color: rgba(0, 0, 0, 0.809);
+// nav #ac{
+//     // color: rgba(0, 0, 0, 0.809);
   
-}
+// }
 
 
 
-nav #ev{
-  color: rgba(0, 0, 0, 0.809);
+// nav #ev{
+//   color: rgba(0, 0, 0, 0.809);
 
-}
+// }
 
 
 
-nav #co{
-  color: rgba(0, 0, 0, 0.809);
+// nav #co{
+//   color: rgba(0, 0, 0, 0.809);
 
-}
+// }
 
   .logo img {
 
@@ -246,21 +202,16 @@ nav #co{
     .navHidden {
       display: none;
     }
-
-    nav ul {
+    aside nav{
       display: flex;
-      flex-direction: column;
-
+     
     }
+
+   
 
   }
 
-  .contenuhd{
-     .recherches{
-      display: flex;
-      justify-content: center;
-    }
-  }
+  
 }
 
 
