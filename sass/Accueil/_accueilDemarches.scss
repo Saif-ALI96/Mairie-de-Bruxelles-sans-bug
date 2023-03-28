@@ -21,7 +21,7 @@
     }
     .demarchesTexte{
         flex-direction: column;
-        p{
+        p{text-decoration: none;
             text-align: start;
         }
     }
@@ -29,7 +29,8 @@
     .lienDemarche{
         display: flex;
         flex-direction: row;
-       a{justify-content: space-around;
+        justify-content: space-between;
+       a{
         text-decoration: none;
         img {
             height: 50px;
