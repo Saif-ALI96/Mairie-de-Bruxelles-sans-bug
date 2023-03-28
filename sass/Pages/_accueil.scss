@@ -38,3 +38,20 @@ margin-bottom: 20px;
 }
 
 // media queries
+
+@media screen and (max-width: 500px) {
+
+  .accueilIntro h2{
+    font-size: 30px;
+  }
+
+  .accueilIntro p{
+    font-size: 12px;
+  }
+
+
+  .dernieresnouvelles h2{
+ 
+      font-size: 30px;
+  }
+}
