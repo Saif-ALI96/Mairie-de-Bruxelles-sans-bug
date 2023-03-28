@@ -78,3 +78,15 @@
   width: 280px;
   padding-right: 120px;
 }
+
+@media  all and (max-width: 500px)  {
+
+  .hd2{
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+  
+}
