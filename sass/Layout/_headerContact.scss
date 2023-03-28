@@ -69,12 +69,12 @@
   list-style: none;
 }
 
-.logo3{
+.logo{
   display: flex;
   justify-content: end;
 }
 
-.logo3 img {
+.logo img {
   width: 280px;
   padding-right: 120px;
 }
@@ -87,7 +87,7 @@
     background-position: center;
   }
 
-  .logo3 img{
+  .logo img{
     padding-right: 5%;
     width: 60%;
   }
