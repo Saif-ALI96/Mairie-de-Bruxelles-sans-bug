@@ -108,11 +108,11 @@
   }
 
   .overlay-image .hover-image {
+  
     border-radius: 100px 100px 0px 0px;
     width: 140px;
     height: 120px;
-    padding: 2%;        
-    
+    padding: 2%;
   }
 
   
@@ -133,8 +133,39 @@
 }
 
 .EvenementsAccueil{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
   margin-left: 3%;
  
 }
+
+.containerdeux {
+
+  .imagesEvenementsAccueil{
+    display: grid;
+    grid-row: repeat(3, 1fr);
+    grid-gap: 5px;
+    padding-bottom: 50px;
+}
+.imagesEvenementsAccueildeux{
+ display: grid;
+ grid-columns: repeat(3, 1fr);
+ grid-gap: 5px;
+ padding-bottom: 50px;
+}
+
+  .containerdeuxtexte{
+    h2 {text-align: center;}
+    p {text-align: center;}
+  }
+    img {
+      border-radius: 100px 100px 0px 0px;
+      width: 380px;
+      height: 250px;
+      padding: 2%;
+    }
+}
+
+
 
 }
