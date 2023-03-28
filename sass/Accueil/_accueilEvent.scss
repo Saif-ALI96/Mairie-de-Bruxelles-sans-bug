@@ -3,6 +3,8 @@
   margin-left: 10%;
 }
 
+
+// Grid version Dekstop
 .containerdeux {
 
   .imagesEvenementsAccueil{
@@ -34,14 +36,14 @@
 
 
 
-
+// Passage souris sur les événements 
 .overlay-image {
-  position: relative; /* Important pour positionner le contenu par dessus, relatif à l'élément */
-  display: inline-block; /* Prendra la forme de son contenu */
+  position: relative; 
+  display: inline-block; 
 }
 
 .overlay-image img {
-  vertical-align: middle; /* Ou display: block, pour enlever l'espace blanc */
+  vertical-align: middle; 
 }
 
 .overlay-image .hover-image {
@@ -53,9 +55,9 @@
   right: 0;
   
   /* Effets de transition */
-  opacity: 0; /* On cache l'élément via son opacité */
-  transition: opacity 0.25s ease-in-out; /* Effet de transition sur le hover */
-  
+  opacity: 0; 
+  transition: opacity 0.25s ease-in-out;
+
   /* Style du contenu hover */
   background-color: rgb(51 51 51 / 74%); /* Couleur par défaut */
   color: white;
@@ -84,4 +86,55 @@
 .EvenementsAccueil a{
   font-family: $policeTexte;
   color: white;
+}
+
+// Média Queries evenements
+@media screen and (max-width: 500px){
+
+  .containerdeuxtexte h2{
+    font-size: 25px;
+  }
+  .containerdeuxtexte p{
+    font-size: 12px;
+  }
+
+  .containerdeux{
+  img {
+      border-radius: 100px 100px 0px 0px;
+      width: 140px;
+      height: 120px;
+      padding: 2%;
+    }
+  }
+
+  .overlay-image .hover-image {
+    border-radius: 100px 100px 0px 0px;
+    width: 140px;
+    height: 120px;
+    padding: 2%;        
+    
+  }
+
+  
+.EvenementsAccueil h3{
+  font-family: $policeTexte;
+  font-size: 10px;
+}
+
+.EvenementsAccueil a{
+  font-family: $policeTexte;
+  color: white;
+}
+
+.EvenementsAccueil p{
+  font-family: $policeTexte;
+  color: white;
+  font-size: 10px;
+}
+
+.EvenementsAccueil{
+  margin-left: 3%;
+ 
+}
+
 }
