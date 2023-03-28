@@ -112,11 +112,17 @@ nav {
 }
 
 // Champ de recherches css
+aside{
+  .recherches{
+    width: 200px;
+    display: flex;
+    justify-self: center;
+    
+  }
+
+}
 .search-box {
-  position: absolute;
-  top: 45%;
-  left: 81%;
-  transform: translate(-50%, -50%);
+ 
   background: #666666;
   height: 40px;
   border-radius: 40px;
