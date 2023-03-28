@@ -8,29 +8,29 @@ html {
     padding-bottom: 5%;
     padding-top: 0%;
 
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: $couleurTitreMain;
+        font-family: $policeTitre;
+        letter-spacing: 3px;
+        font-size: $tailleTitreEvenement;
+        padding-top: 2%;
+        padding-left: 8px;
+    }
+
     .EventNumerique {
         background-color: $backgroundSection;
         width: 87%;
         margin-left: 4%;
         padding-left: 4%;
         padding-bottom: 4%;
-
-        .DateEventNum {
-
-            h1 {
-                display: flex;
-                justify-content: center;
-                color: $couleurTitreMain;
-                font-family: $policeTitre;
-                letter-spacing: 3px;
-                font-size: $tailleTitreEvenement;
-                padding-top: 2%;
-                padding-left: 8px;
-            }
-        }
     }
 
-    p .TexteADroite .DescriptionPrintempsNumerique{
+        //Début de la section Printemps Numérique 
+
+
+    p .TexteADroite .DescriptionPrintempsNumerique {
         font-size: $tailleTexte;
     }
 
@@ -47,12 +47,18 @@ html {
         color: white;
         width: 28%;
         margin-right: 13%;
-        font-family: $policeTexte ;
+        font-family: $policeTexte;
     }
 
-    .NouvelleTechnologie{
-        width: 80%;
+    .NouvelleTechnologie {
+        width: 50%;
+        margin-right: 0;
+      
+        padding-bottom: 4%;
+       
+        margin-left: 1%;
     }
+
     .NouvelleTechnologie img {
         display: flex;
         padding-bottom: 4%;
@@ -61,15 +67,49 @@ html {
     }
 }
 
-.DescriptionPrintempsNumerique {
-    display: flex;
-    gap: 20px;
-    width: 86%;
-    margin-left: 9px;
-    font-family: $policeTexte ;
+
+//Fin de la section Printemps Numérique 
+
+
+//Début de la section Summer Fest
+
+p .TexteAGauche .DescriptionPrintempsNumerique {
+    font-size: $tailleTexte;
 }
 
+.BlocImgTxt1 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
 
-.footerContact{
+.footerContact {
     margin-bottom: 0;
 }
+
+.TexteAGauche {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: white;
+    width: 28%;
+    margin-right: 13%;
+    font-family: $policeTexte;
+}
+
+.Festival {
+    width: 80%;
+    margin-right
+    
+    : 10%;
+    padding-bottom: 4%;
+    width: 50%;
+    margin-left: 1%;
+}
+
+//Fin de la section Summer Fest
+  
+
+//Début de la section Bruxelle Tour
+
+
