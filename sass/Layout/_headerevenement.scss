@@ -79,10 +79,12 @@
   padding-right: 120px;
 }
 
-@media screen and (max-width: 500px) {
-  .nav2{
-    background-color:rgba(0, 0, 0, 0.474) ;
-    padding-right: 0%;
-    margin-right: 5%;
+@media  all and (max-width: 500px)  {
+
+  .hd2{
+    background-size: 100%;
+    height: 200px;
+
   }
+  
 }
