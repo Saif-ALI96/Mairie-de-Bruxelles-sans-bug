@@ -34,6 +34,8 @@
 
     margin-right: 20%;
     line-height: 40px;
+    text-align: justify;
+    letter-spacing: 0.5px;
 }
 
 .logoContact{
@@ -135,6 +137,8 @@ footer{
 .footerContact p{
     font-size:large;
     margin-right: 13%;
+    text-align: justify;
+    letter-spacing: 1px;
 
 }
 
@@ -178,11 +182,16 @@ footer{
 }
 .basPageTexte p{
     font-size:medium;
-    
+    text-align: center;
+   
 }
+    
+
 
 .lienFooter {
     width: 100%;
+    text-align: center;
+    margin-left: 5%;
 }
 .lienFooter a{
     font-size: 20px;
