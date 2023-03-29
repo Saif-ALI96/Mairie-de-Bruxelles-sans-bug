@@ -23,17 +23,15 @@
   }
 
   .ActusLiens a{
-    color: $couleurTitreMain;
-   
+    color: $couleurTitreMain; 
   }
 
   .slider{
     display: flex;
     flex-direction: column;
-
     align-items: center;
-   
   }
+
   #slides {
     position: relative;
     height: 500px;

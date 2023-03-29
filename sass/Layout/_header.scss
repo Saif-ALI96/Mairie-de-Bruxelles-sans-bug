@@ -9,7 +9,6 @@ header {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 40%;
-  height: 500px;
 }
 
 
@@ -21,6 +20,10 @@ header {
   color: white;
   font-size: 40px;
   margin-bottom: 10px;
+}
+
+.contenuhd{
+  height: 100%;
 }
 
 .elementhd {
@@ -103,8 +106,8 @@ nav {
 
 }
 
-.logo img {
-  width: 250px;
+.logo1 img {
+  width: 40%;
   padding-left: 35%;
   margin-top: 15px;
 
@@ -115,8 +118,37 @@ nav {
   .recherches{
     width: 200px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+   margin-left: 40%;
+   padding-bottom: 1%;
     
+  }
+
+  @media all and (max-width:500px){
+    .recherches{
+      display: block;
+      margin-left: 4%;
+      padding-bottom: 1%;
+      .search-box{
+        height: 20px;
+      }
+      .search-txt{
+        font-size: medium;
+        line-height: 20px;
+      }
+      .search-btn{
+        display: block;
+        width: 30px;
+       height: 30px;
+       background:none;
+      }
+      .search-box:hover>.search-btn {
+  background:none;
+ 
+  color: #DABB70;
+}
+
+    }
   }
 
 .search-box {
@@ -177,6 +209,7 @@ nav {
 
 
 
+
 // media queries
 @media screen and (max-width: 820px) {
   .logo img {
@@ -205,7 +238,7 @@ nav {
 }
 
 /* On screens that are 600px wide or less, the background color is olive */
-@media screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
   nav{
     background-color:rgba(0, 0, 0, 0.474) ;
     border-radius: 10%;
@@ -218,28 +251,12 @@ nav {
     }
   }
 
-// nav #ac{
-//     // color: rgba(0, 0, 0, 0.809);
-  
-// }
 
 
-
-// nav #ev{
-//   color: rgba(0, 0, 0, 0.809);
-
-// }
-
-
-
-// nav #co{
-//   color: rgba(0, 0, 0, 0.809);
-
-// }
-
-  .logo img {
+  .logo1 img {
 
     width: 60%;
+    padding-right: 5%;
   }
 
   header {
