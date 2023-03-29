@@ -112,6 +112,10 @@
   right: 10px;
 }
 
+.DlText{
+  margin-top: 45%;
+
+}
 
 
 
@@ -119,10 +123,12 @@
 
 
 
+@media screen and (max-width: 500px){
+.DlText{
+  margin-top: 75%;
+}
 
-
-
-
+}
 
 
 
