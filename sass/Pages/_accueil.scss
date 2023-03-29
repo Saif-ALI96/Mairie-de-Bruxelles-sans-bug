@@ -35,11 +35,13 @@ padding-top: 30px;
 display: flex;
 justify-content: center;
 margin-bottom: 20px;
+margin-left: 10%;
+margin-right: 23%;
 }
 
 // media queries
 
-@media screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
 
   .accueilIntro h2{
     font-size: 30px;
@@ -59,8 +61,16 @@ margin-bottom: 20px;
 
 
 
-@media screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
 .dernieresnouvelles{
   padding-top: 5px;
   }
+
+  
+.containerun p {
+
+  margin-right: 5%;
+  margin-bottom: 0;
+}
+
 }
