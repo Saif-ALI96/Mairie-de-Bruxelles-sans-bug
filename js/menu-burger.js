@@ -1,3 +1,5 @@
+// JS Menu burger
+
 document.querySelector("#burger").addEventListener('click', () => {
     const aside = document.querySelector('aside');
     const toggle = aside.classList.toggle('active');
